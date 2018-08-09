@@ -4,8 +4,9 @@ git note
 * git remote -v 查看仓库地址
 * git status 查看本地文件状态
 * git pull 更新
-* git add filename
-
+* git add filename   提交文件
+* git commit -m "this is commit　by nohi"   注释
+ 
 
 # 分支相关
 * git branch -vv 查看本地分支和远程分支的关联关系
