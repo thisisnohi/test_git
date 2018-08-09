@@ -1,4 +1,5 @@
-git note
+# git note 
+[![aaa](https://img.shields.io/badge/thisisnohi-test__git-brightgreen.svg)]
 
 #　基本命令
 * git remote -v 查看仓库地址
