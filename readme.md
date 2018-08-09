@@ -30,3 +30,33 @@ git note
 * git stash drop [stash_id] 删除一个存储的进度。如果不指定stash_id，则默认删除最新的存储进度。
 
 * git stash clear 删除所有存储的进度
+
+## FAQ
+### 配置ssh-key免密登录
+1. $ ssh-keygen -t rsa -C "youremail@youremail.com"  
+   Generating public/private rsa key pair... 三次回车即可生成 ssh key
+   不需要输入密码
+   
+2. 拷贝公钥至github里。默认公钥文件 ~/.ssh/id_rsa.pub
+   
+3. 如果存在多个账户、需要连接不同仓库。~/.ssh/目录增加文件 config
+
+4. config文件如下
+```
+# 配置github.com
+Host github.com                 
+    HostName github.com
+    IdentityFile C:\\Users\\\nohi\\.ssh\\thisisnohi_github.com
+    PreferredAuthentications publickey
+    User thisisnohi
+
+# 配置work.scfsoft.com
+Host work.scfsoft.com
+    HostName work.scfsoft.com
+#	port 90
+    IdentityFile C:\\Users\\\nohi\\.ssh\\dinglonghai
+    PreferredAuthentications publickey
+    User dinglonghai
+```
+
+5. 测试　ssh -T git@github.com
