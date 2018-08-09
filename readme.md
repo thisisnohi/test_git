@@ -1,5 +1,8 @@
 git note
 
+#　基本命令
+* git remote -v 查看仓库地址
+* git status 查看本地文件状态
 
 # 分支相关
 * git branch -vv 查看本地分支和远程分支的关联关系
