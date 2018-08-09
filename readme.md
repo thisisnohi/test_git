@@ -41,16 +41,6 @@
 
 * git stash clear 删除所有存储的进度
 
-
-## 回退
-* git log -3  显示提交的log
-* git reset --hard e377f60e28c8b84158 回退到指定版本 
-    * git reset  本地回滚
-    * git reset --hard HEAD^         回退到上个版本
-    * git reset --hard HEAD~3        回退到前3次提交之前，以此类推，回退到n次提交之前
-    * git reset --hard commit_id     退到/进到 指定commit的sha码
-* git push -f origin master 强制提交
-
 ## FAQ
 ### 配置ssh-key免密登录
 1. $ ssh-keygen -t rsa -C "youremail@youremail.com"  
