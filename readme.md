@@ -4,6 +4,8 @@ git note
 * git remote -v 查看仓库地址
 * git status 查看本地文件状态
 * git pull 更新
+* git add filename
+
 
 # 分支相关
 * git branch -vv 查看本地分支和远程分支的关联关系
