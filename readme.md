@@ -41,6 +41,11 @@
 
 * git stash clear 删除所有存储的进度
 
+## 回滚
+如果只回退一个最新commit：git reset HEAD^
+如果需要回退多个commit：git reset 回退至的commit hash码
+如果直接要舍弃commit的内容，命令末尾加--hard
+
 ## FAQ
 ### 配置ssh-key免密登录
 1. $ ssh-keygen -t rsa -C "youremail@youremail.com"  
