@@ -1,8 +1,0 @@
-1-0328 create file
-2-12:03 update 
-<<<<<<< HEAD
-
-12:06 222222  edit again
-=======
-2 12:03 update other man
->>>>>>> 82616b390291d52f3ebcde95a4aceb148786c1d1
